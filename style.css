@@ -1,0 +1,201 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    padding: 0%;
+    background-color: black;
+}
+
+#bg1 {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    font-family: "Playfair Display", sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+    position: fixed;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 2fr;
+    align-items: center;
+    color: white;
+    z-index: 5;
+
+}
+#nome {
+    margin-left: 10vw;
+    font-size: 200%;
+
+}
+#typing {
+    position: relative;
+    margin-top: 65px;
+    display: inline-block;
+}
+
+.overlay {
+    font-family: "Karla", serif;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 200px 2fr 4fr;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    margin-top: 10vh;
+    justify-items: center;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+#botaosobre{
+    background-color: rgb(241, 241, 241);
+    opacity: 1;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-family: "Karla", serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    z-index: 3;
+
+}
+
+
+
+hr{
+    opacity: 0;
+}
+
+#sobremim{
+    height: 120vh;
+    background-color: black;
+    margin: 0;
+    padding-top: 20vh;
+
+}
+
+#minhaimg {
+    width: 350px;
+
+}
+#divminhaimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ola {
+    font-family: "Karla", serif;
+    font-size: 5vw;
+    margin-top: 0;
+    
+}
+.menuitem {
+    padding-left: 1vw;
+    
+}
+
+.frase {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: beige;
+
+}
+#frases {
+    font-family: "Playfair Display", serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5vw;
+    height: 100vh;
+
+
+}
+#frase2 {
+    float: right;
+    text-align: right;
+}
+#frase1 {
+     padding-top: 20vh;
+}
+#textsobremim {
+    color: white;
+    font-family: "Karla", serif;
+    padding: 5vh;
+}
+#menus li{
+    display: inline-block;
+}
+#menus ul {
+         
+}
+.dropdown {
+    color: white;
+    background-color: rgb(152, 155, 206);
+    width: 40vw;
+    height: 5vh;
+    border-radius: 5vh;
+    text-align: center;
+    padding-top: 2vh;
+    font-family: "Playfair Display", serif;
+}
+.dropdownitens {
+    position: absolute;
+    display: none;
+    background-color:rgb(152, 155, 206);
+    border-radius: 5vh;
+    margin: 5vh;
+    width: 35vw;
+    font-family: "Karla", serif;
+}
+.dropdownitens p{
+    display: block;
+
+}
+.dropdown:hover .dropdownitens{
+    display: block;
+}
+#menus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#espacamento {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    color: white;
+    font-size: 2em;
+}
+#espacamento button {
+    margin: 2vh;
+    background-color: rgb(255, 255, 255) ;
+    width: 200px;
+    height: 10vh;
+    border-radius: 20px;
+    border: none;
+}
+#rodape {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+
+    background-color: rgb(152, 155, 206);
+
+}
+#iconesrodape {
+padding-left: 2vw;
+}
+#iconesrodape img {
+    width: 50px;
+}
