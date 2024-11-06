@@ -27,6 +27,10 @@ body {
     z-index: 5;
 
 }
+.menuitem a {
+    text-decoration: none;
+    color: white;
+}
 #nome {
     margin-left: 10vw;
     font-size: 200%;
