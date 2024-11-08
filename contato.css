@@ -45,3 +45,19 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+#rodape {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+
+    background-color: rgb(152, 155, 206);
+
+}
+#iconesrodape {
+padding-left: 2vw;
+}
+#iconesrodape img {
+    width: 50px;
+}
