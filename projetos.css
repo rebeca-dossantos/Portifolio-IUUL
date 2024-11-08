@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    height: 100%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+}
+.menu {
+    font-family: "Playfair Display", sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+    position: fixed;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 2fr;
+    align-items: center;
+    color: white;
+    z-index: 5;
+
+}
+.menuitem a {
+    text-decoration: none;
+    color: white;
+}
+#nome {
+    margin-left: 10vw;
+    font-size: 200%;
+
+}
+.projetos {
+    height: 80vh;
+    margin-top: 20vh;
+
+    color: white;
+
+}
+#projetosimg {
+    width: 100%;
+    padding-top: 30vh;
+    margin-bottom: 20vh;
+}
+.imgdosprojetos {
+    width: 50vw;
+    min-width: 370px;
+    height: 500px;
+    max-height: 70vh;
+    padding: 10px;
+    border-radius: 10%;
+}
+.divimagem {
+    width: 50vw;
+    height: 80vh;
+}
+.divconteudo {
+    width: 30vw;
+    height: 85vh;
+    color: white;
+    font-size: 1emx;
+    font-family: "Playful Display", serif;
+    display: flex;
+    justify-content: center;
+    float: left;
+
+}
+.titulo {
+    font-size: 2em;
+}
+#imgproj1 {
+    width: 100vw;
+}
+
+#imgproj2 {
+    width: 60vw;
+}
+#imgproj3 {
+    width: 60vw;
+}
+h2 {
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-align: center;
+
+    
+
+    
+}
+p {
+    font-family: "Karla", serif;
+    color: white;
+    padding: 5vh;
+    text-align: center;
+}
+button {
+     border-radius: 30%;
+     border: none;
+     text-align: center;
+     margin: 2vw;
+     font-family: "Karla",serif;
+     width: 7vw;
+     height: 6vh;
+     
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html {
+    background-color: rgb(250, 46, 10);
+}
+.css {
+    background-color: rgb(96, 96, 231);
+}
+#js{
+    background-color: rgb(250, 189, 20);
+
+}
+#python {
+    background-color: rgb(2, 2, 143);
+}

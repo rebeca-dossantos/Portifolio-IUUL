@@ -96,10 +96,7 @@ hr{
 }
 
 #ola {
-    font-family: "Karla", serif;
-    font-size: 5vw;
-    margin-top: 0;
-    
+ 
 }
 .menuitem {
     padding-left: 1vw;
@@ -136,9 +133,9 @@ hr{
 #menus li{
     display: inline-block;
 }
-#menus ul {
+
          
-}
+
 .dropdown {
     color: white;
     background-color: rgb(152, 155, 206);
@@ -178,6 +175,7 @@ hr{
     height: 50vh;
     color: white;
     font-size: 2em;
+    padding-top: 20vh;
 }
 #espacamento button {
     margin: 2vh;
