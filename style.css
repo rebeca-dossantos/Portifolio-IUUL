@@ -96,7 +96,10 @@ hr{
 }
 
 #ola {
- 
+    font-family: "Karla", serif;
+    font-size: 5vw;
+    margin-top: 0;
+    
 }
 .menuitem {
     padding-left: 1vw;
