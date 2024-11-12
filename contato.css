@@ -27,14 +27,28 @@ body {
 
 }
 #mundo {
-    margin-top: 40vh;
-    width: 500px;
+
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
 }
 #contatos {
 
     padding-top: 40vh;
     padding-left: 10vw;
     color: white;
+    width: 40vw;
+    min-width: 300px;
+}
+#forms {
+    padding-top: 45vh;
+    width: 40vw;
+    color: white;
+    min-width: 400px;
+    text-align: center;
+    font-family: "Karla", serif;
 }
 
 .iconescontato {
@@ -46,7 +60,7 @@ body {
     flex-wrap: wrap;
 }
 #rodape {
-    width: 100%;
+    
     height: 20vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -60,4 +74,21 @@ padding-left: 2vw;
 }
 #iconesrodape img {
     width: 50px;
+}
+#mensagem {
+    height: 10vh;
+}
+
+input {
+    width: 300px;
+}
+#submit {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.062);
+    height: 5vh;
+    width: 10vw;
+    min-width: 100px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Karla",serif;
 }
