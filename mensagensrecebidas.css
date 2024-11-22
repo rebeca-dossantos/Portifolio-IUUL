@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+}
+
+.menu {
+    font-family: "Playfair Display", sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+
+    position: fixed;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 2fr;
+    align-items: center;
+    color: white;
+    z-index: 5;
+
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: white;
+}
+
+#nome {
+    margin-left: 10vw;
+    font-size: 200%;
+
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.932);
+    padding-top: 30vh;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+}
+
+#tabelamensagens {
+    width: 80%;
+    min-width: 380px;
+    table-layout: fixed;
+    color: rgb(0, 0, 0);
+    font-family: "Karla", serif;
+    font-size: medium;
+
+    
+}
+
+#tabelamensagens td {
+    padding: 2vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+
+thead tr td {
+    font-size: large;
+    font-weight: bold;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-style: solid;
+
+}
+
+td {
+    text-align: center;
+}
+
+#tabelamensagens td:nth-child(1) {
+    width: 20%;
+
+}
+
+#tabelamensagens td:nth-child(2) {
+    width: 20%;
+
+}
+
+#tabelamensagens td:nth-child(3) {
+    width: 50%;
+
+}
+
+#tabelamensagens td:nth-child(4) {
+    width: 10%;
+    background-color: black;
+
+}
+
+#tabelamensagens img {
+    width: 3vh;
+}
+
+#divbotao {
+    text-align: center;
+
+
+}
+
+button {
+    height: 10vh;
+    width: 20vw;
+    color: white;
+    border: 2px solid white;
+    border-style: solid;
+    background-color: black;
+    font-family: "Karla", serif;
+    font-size: medium;
+    min-width: 100px;
+}
+#divtabela {
+    display: flex;
+    justify-content: center;
+}

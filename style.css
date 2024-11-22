@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -14,11 +15,12 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .menu {
     font-family: "Playfair Display", sans-serif;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    
+
     position: fixed;
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 2fr;
@@ -27,15 +29,18 @@ body {
     z-index: 5;
 
 }
+
 .menuitem a {
     text-decoration: none;
     color: white;
 }
+
 #nome {
     margin-left: 10vw;
     font-size: 200%;
 
 }
+
 #typing {
     position: relative;
     margin-top: 65px;
@@ -53,10 +58,10 @@ body {
     justify-items: center;
     width: 100%;
     z-index: 2;
-    
+
 }
 
-#botaosobre{
+#botaosobre {
     background-color: rgb(241, 241, 241);
     opacity: 1;
     border-radius: 50px;
@@ -73,11 +78,11 @@ body {
 
 
 
-hr{
+hr {
     opacity: 0;
 }
 
-#sobremim{
+#sobremim {
     height: 120vh;
     background-color: black;
     margin: 0;
@@ -89,6 +94,7 @@ hr{
     width: 350px;
 
 }
+
 #divminhaimg {
     display: flex;
     align-items: center;
@@ -99,11 +105,12 @@ hr{
     font-family: "Karla", serif;
     font-size: 5vw;
     margin-top: 0;
-    
+
 }
+
 .menuitem {
     padding-left: 1vw;
-    
+
 }
 
 .frase {
@@ -112,6 +119,7 @@ hr{
     color: beige;
 
 }
+
 #frases {
     font-family: "Playfair Display", serif;
     display: grid;
@@ -121,23 +129,27 @@ hr{
 
 
 }
+
 #frase2 {
     float: right;
     text-align: right;
 }
+
 #frase1 {
-     padding-top: 20vh;
+    padding-top: 20vh;
 }
+
 #textsobremim {
     color: white;
     font-family: "Karla", serif;
     padding: 5vh;
 }
-#menus li{
+
+#menus li {
     display: inline-block;
 }
 
-         
+
 
 .dropdown {
     color: white;
@@ -149,28 +161,33 @@ hr{
     padding-top: 2vh;
     font-family: "Playfair Display", serif;
 }
+
 .dropdownitens {
     position: absolute;
     display: none;
-    background-color:rgb(152, 155, 206);
+    background-color: rgb(152, 155, 206);
     border-radius: 5vh;
     margin: 5vh;
     width: 35vw;
     font-family: "Karla", serif;
 }
-.dropdownitens p{
+
+.dropdownitens p {
     display: block;
 
 }
-.dropdown:hover .dropdownitens{
+
+.dropdown:hover .dropdownitens {
     display: block;
 }
+
 #menus {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
 #espacamento {
     display: flex;
     justify-content: center;
@@ -180,14 +197,16 @@ hr{
     font-size: 2em;
     padding-top: 20vh;
 }
+
 #espacamento button {
     margin: 2vh;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     width: 200px;
     height: 10vh;
     border-radius: 20px;
     border: none;
 }
+
 #rodape {
     width: 100%;
     height: 20vh;
@@ -198,9 +217,11 @@ hr{
     background-color: rgb(152, 155, 206);
 
 }
+
 #iconesrodape {
-padding-left: 2vw;
+    padding-left: 2vw;
 }
+
 #iconesrodape img {
     width: 50px;
 }

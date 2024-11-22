@@ -4,11 +4,12 @@ body {
     padding: 0%;
     background-color: black;
 }
+
 .menu {
     font-family: "Playfair Display", sans-serif;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    
+
     position: fixed;
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 2fr;
@@ -17,15 +18,18 @@ body {
     z-index: 5;
 
 }
+
 .menuitem a {
     text-decoration: none;
     color: white;
 }
+
 #nome {
     margin-left: 10vw;
     font-size: 200%;
 
 }
+
 #mundo {
 
     width: 50vw;
@@ -34,6 +38,7 @@ body {
     padding-top: 10vh;
     padding-bottom: 20vh;
 }
+
 #contatos {
 
     padding-top: 40vh;
@@ -42,7 +47,8 @@ body {
     width: 40vw;
     min-width: 300px;
 }
-#forms {
+
+#divforms {
     padding-top: 45vh;
     width: 40vw;
     color: white;
@@ -54,13 +60,15 @@ body {
 .iconescontato {
     width: 50px;
 }
+
 #telacontato {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 #rodape {
-    
+
     height: 20vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -69,12 +77,26 @@ body {
     background-color: rgb(152, 155, 206);
 
 }
-#iconesrodape {
-padding-left: 2vw;
+#restrito {
+        border: none;
+    background-color: rgba(255, 255, 255, 0.034);
+    height: 5vh;
+    width: 10vw;
+    min-width: 100px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Karla", serif;
+
 }
+
+#iconesrodape {
+    padding-left: 2vw;
+}
+
 #iconesrodape img {
     width: 50px;
 }
+
 #mensagem {
     height: 10vh;
 }
@@ -82,13 +104,14 @@ padding-left: 2vw;
 input {
     width: 300px;
 }
+
 #submit {
     border: none;
-    background-color: rgba(255, 255, 255, 0.062);
+    background-color: rgba(255, 255, 255, 0.080);
     height: 5vh;
     width: 10vw;
     min-width: 100px;
     border-radius: 25px;
     color: white;
-    font-family: "Karla",serif;
+    font-family: "Karla", serif;
 }
